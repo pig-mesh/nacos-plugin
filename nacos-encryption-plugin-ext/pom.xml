@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>nacos-plugin-ext</artifactId>
-        <groupId>com.alibaba.nacos</groupId>
-        <version>${revision}</version>
+        <groupId>io.springboot.nacos</groupId>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -14,15 +14,16 @@
 
     <modules>
         <module>nacos-aes-encryption-plugin</module>
+        <module>nacos-sm4-encryption-plugin</module>
     </modules>
 
     <dependencies>
         <dependency>
-            <groupId>com.alibaba.nacos</groupId>
+            <groupId>io.springboot.nacos</groupId>
             <artifactId>nacos-encryption-plugin</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.nacos</groupId>
+            <groupId>io.springboot.nacos</groupId>
             <artifactId>nacos-common</artifactId>
         </dependency>
     </dependencies>
