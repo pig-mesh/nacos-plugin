@@ -34,7 +34,7 @@ public class SM4EncryptionPluginService implements EncryptionPluginService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(SM4EncryptionPluginService.class);
 
-    private static final String DEFAULT_SECRET_KEY = "nacos6b31e19f931a7603ae5473250b4";
+    private static final String DEFAULT_SECRET_KEY = "LENGLENGLENGLENG";
 
     @Override
     public String encrypt(String secretKey, String content) {

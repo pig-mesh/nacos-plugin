@@ -7,7 +7,7 @@
     <groupId>io.springboot.nacos</groupId>
     <artifactId>nacos-plugin-ext</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>0.0.1</version>
 
     <name>Alibaba NACOS Plugin</name>
     <description>Top Nacos project pom.xml file</description>
